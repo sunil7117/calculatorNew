@@ -24,6 +24,8 @@
     background-color: rgba(190, 185, 185, 0.692);
 }
 #screen >p{
+    text-align: end;
+    margin-left: 20px;
     margin-right: 20px;
     font-size: 36px;
     font-weight: bold;
@@ -42,7 +44,12 @@
     font-weight: bold;
     outline: none;
     border: none;
-}
+    box-shadow: 1px 1px 5px 2px rgba(190, 185, 185, 0.692);
+} 
 .btn-container >button:hover{
     cursor: pointer;
 }
+.pressed {
+    transform: scale(0.95); /* Makes the button look pressed by scaling down */
+    background-color: rgba(136, 201, 233, 0.8); /* Slightly darken the background */
+  }
